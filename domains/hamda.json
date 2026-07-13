@@ -4,6 +4,19 @@
     "email": "development.engineering.s@gmail.com"
   },
   "records": {
-    "A": ["34.123.176.88"]
+    "A": ["34.10.145.148"],
+    "MX": [
+      {
+        "priority": 0,
+        "value": "mx1.forwardemail.net"
+      },
+      {
+        "priority": 0,
+        "value": "mx2.forwardemail.net"
+      }
+    ],
+    "TXT": [
+      "forward-email=development.engineering.s@gmail.com"
+    ]
   }
 }
